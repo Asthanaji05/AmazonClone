@@ -1,0 +1,238 @@
+*{
+    padding: 0px;
+    margin:0;
+    border:none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Navigation bar */
+.nav2{
+    background-color: #232f3e;
+    display: flex;
+    color:white;
+}
+
+.nav2 a{
+    color:white;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding:8px 9px 8px 9px;
+    text-decoration-line: none;
+    margin-top: 5px;
+    margin-bottom: 6px;
+
+}
+.nav2 a:hover{
+    border: 1px solid white;
+}
+/*Top Navigation */
+.headnav{
+    background-color:#131921 ;
+    color:white;
+    display: flex;
+    padding: 1px;
+    left:0;
+    top:0;
+    align-items: center;
+    justify-content: center;
+}
+/*Logo Image in Nav bar*/
+.logo img{
+    min-height: 60px;
+    width: 10vw;
+    padding-top: 4px;
+}
+.logo{
+    margin:1px;
+    padding: 1px 8px 0px  6px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    float: none;
+    min-height: 60px;
+}
+
+.logo:hover{
+    border:solid 1px #f3f3f3;
+}
+/*2nd component in head nav */
+#hd2{
+    display: flex;
+    flex-direction: column;
+    margin-top:15px;
+    margin-bottom:5px;
+    margin-right:2px;
+    height: 60px;
+    font-size: 14px;
+    color:rgb(214,214,214);
+    cursor: pointer;
+    width: 165px;
+    width:10vw;
+    min-height: 60px;
+}
+
+#hd2:hover{
+    border:solid 1px #f3f3f3;
+}
+
+/*Search Bar */
+
+#search{
+    display:flex;
+    margin: 2px;;
+    flex-direction: row;
+    min-height:60px; 
+    min-width: 360px;
+    width:10vw; 
+    padding: 3px 10px 4px 10px;
+    font: size 14px;
+    border-radius:4px;
+    border:solid 1px #131921;
+    margin-top:5px;
+}
+#category{
+    background-color: #f3f3f3;
+    color:rgb(15,17,17);
+    font-size: 12px;
+    border-right: solid 1px;
+    border-radius: 8px 0px 0px 8px;
+    height: 40px;
+    width: 52px;
+    border-right-color: rgb(205,205,205) ;
+    padding-left : 5px ;
+
+}
+#category:hover{
+    color:black;
+    background-color: #cccccc;
+}
+
+#lang select{
+    display:flex;
+    flex-direction:column;
+    margin-left:1px; 
+    margin-right: 2px;
+    padding-bottom:5px;
+    padding-right:9px; 
+    padding-left:9px;
+    font-size:14px; 
+    color:white;
+    background-color: #131921; 
+    cursor: pointer;
+    margin-top:15px;
+}
+#lang:hover{
+    border:solid 1px #f3f3f3;
+}
+
+.header{
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/prime/PD23/ACQ/GWhero/PC_Hero_3000x1200_KV_DAY_OFF_ft._CB601628864_.jpg);
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    align-items: last baseline;
+}
+.headbody{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 14px;
+    padding-right: 14px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    background-color: #f5f6f6;
+    position: relative;
+    margin-bottom: 25px;
+    bottom: 25px;
+    width:80vw ;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card{
+    display: flex;
+    width: 33%;
+    max-width: 33%;
+    max-height: max-content;
+    height: 420px;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    background-color: #fff;
+    position: relative;
+    flex-direction: column;
+    color: #0f1111;
+    margin: 10px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card img{
+    width:280px;
+    height: 80%;
+    padding: 2px;
+    margin: auto;
+    max-width: 90%;
+    max-width: 80%;
+
+}
+
+.card a{
+    text-decoration: none;
+    color: #007185;
+}
+
+#tag{
+    font-size: 10px;
+    padding: 2px;
+    color:#fff;
+    background-color: #d30942;
+}
+
+.signin{
+    background-image: linear-gradient(yellow, gold,orange);
+    color:black;
+    padding: 10px;
+    margin: 3px;
+    font-weight: bolder;
+    width: 200px;
+    border:1px solid orange;
+    
+}
+
+footer{
+    background-color: #232f3E;
+    margin-top: 0;
+    display: table-row;
+
+}
+
+footer div{
+    display: table-cell;
+    padding: 0 10px;
+
+}
+.foot_ul{
+    display:flex; flex-direction: column; padding:10px; text-decoration: none;
+}
+.foot_ul a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    font-size: medium;
+}
+.footbutton{
+    padding:5px;
+    border: 1px solid white;
+    border-radius: 2px;
+    background-color: #232f3E;
+    color:white;
+    margin:10px;
+
+}
